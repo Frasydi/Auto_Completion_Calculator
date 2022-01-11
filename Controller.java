@@ -1,4 +1,4 @@
-package sample;
+
 
 import Sydn.Mathf;
 import Sydn.Precise;
