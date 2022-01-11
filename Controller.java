@@ -1,6 +1,7 @@
 package sample;
 
 import Sydn.Mathf;
+import Sydn.Precise;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
@@ -42,7 +43,7 @@ public class Controller {
     }
     void menghitung() {
         try {
-            samadengan = String.valueOf(Mathf.eval(persamaan, true));
+            samadengan = String.valueOf(Mathf.eval(persamaan, Precise.PRECISE));
             System.out.println(samadengan);
             Texthasil.setText(samadengan);
         } catch (IndexOutOfBoundsException e) {
