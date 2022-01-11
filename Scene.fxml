@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <TextField fx:id="Text" alignment="CENTER" editable="false" layoutX="102.0" layoutY="40.0" onAction="#Hasilfn" prefHeight="61.0" prefWidth="374.0">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <font>
+                  <Font name="Lucida Fax Regular" size="20.0" />
+               </font>
+            </TextField>
+            <Button fx:id="Tujuh" layoutX="100.0" layoutY="142.0" mnemonicParsing="false" onAction="#Tujuhf" prefHeight="81.0" prefWidth="82.0" text="7" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Delapan" layoutX="207.0" layoutY="143.0" mnemonicParsing="false" onAction="#Delapanf" prefHeight="81.0" prefWidth="82.0" text="8" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Sembilan" layoutX="321.0" layoutY="142.0" mnemonicParsing="false" onAction="#Sembilanf" prefHeight="81.0" prefWidth="82.0" text="9" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Empat" layoutX="100.0" layoutY="252.0" mnemonicParsing="false" onAction="#Empatf" prefHeight="81.0" prefWidth="82.0" text="4" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Lima" layoutX="207.0" layoutY="252.0" mnemonicParsing="false" onAction="#Limaf" prefHeight="81.0" prefWidth="82.0" text="5" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Enam" layoutX="321.0" layoutY="252.0" mnemonicParsing="false" onAction="#Enamf" prefHeight="81.0" prefWidth="82.0" text="6" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Satu" layoutX="100.0" layoutY="354.0" mnemonicParsing="false" onAction="#Satuf" prefHeight="81.0" prefWidth="82.0" text="1" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Dua" layoutX="207.0" layoutY="353.0" mnemonicParsing="false" onAction="#Duaf" prefHeight="81.0" prefWidth="82.0" text="2" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Tiga" layoutX="321.0" layoutY="353.0" mnemonicParsing="false" onAction="#Tigaf" prefHeight="81.0" prefWidth="82.0" text="3" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="plus" layoutX="421.0" layoutY="139.0" mnemonicParsing="false" onAction="#plusf" prefHeight="90.0" prefWidth="46.0" text="+" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="titik" layoutX="100.0" layoutY="458.0" mnemonicParsing="false" onAction="#titikf" prefHeight="48.0" prefWidth="82.0" text="." textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Nol" layoutX="207.0" layoutY="458.0" mnemonicParsing="false" onAction="#Nolf" prefHeight="81.0" prefWidth="82.0" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Kurang" layoutX="421.0" layoutY="248.0" mnemonicParsing="false" onAction="#Kurangf" prefHeight="90.0" prefWidth="46.0" text="-" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Kali" layoutX="421.0" layoutY="349.0" mnemonicParsing="false" onAction="#Kalif" prefHeight="90.0" prefWidth="46.0" text="*" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Bagi" layoutX="421.0" layoutY="454.0" mnemonicParsing="false" onAction="#Bagif" prefHeight="90.0" prefWidth="46.0" text="/" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="root" layoutX="479.0" layoutY="200.0" mnemonicParsing="false" onAction="#rootf" prefHeight="97.0" prefWidth="39.0" text="root" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Lucida Fax Regular" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="Power" layoutX="474.0" layoutY="301.0" mnemonicParsing="false" onAction="#Powerf" prefHeight="97.0" prefWidth="39.0" text="^" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <Button fx:id="Hasil" layoutX="321.0" layoutY="458.0" mnemonicParsing="false" onAction="#Hasilf" prefHeight="48.0" prefWidth="82.0" text="=" textAlignment="CENTER">
+               <font>
+                  <Font name="Lucida Fax Regular" size="24.0" />
+               </font>
+            </Button>
+            <TextField fx:id="Texthasil" alignment="CENTER" editable="false" layoutX="102.0" layoutY="101.0" prefHeight="38.0" prefWidth="374.0">
+               <font>
+                  <Font name="Lucida Fax Regular" size="20.0" />
+               </font>
+            </TextField>
+            <Button fx:id="Delete" layoutX="476.0" layoutY="154.0" mnemonicParsing="false" onAction="#Deletef" prefHeight="39.0" prefWidth="65.0" text="Del" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Lucida Fax Regular" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="Kurungpenutup" layoutX="23.0" layoutY="222.0" mnemonicParsing="false" onAction="#akhirkurungf" prefHeight="61.0" prefWidth="65.0" text=")" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Lucida Fax Regular" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="Kurungpembuka" layoutX="23.0" layoutY="143.0" mnemonicParsing="false" onAction="#awalkurungf" prefHeight="61.0" prefWidth="65.0" text="(" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Lucida Fax Regular" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="clear" layoutX="486.0" layoutY="62.0" mnemonicParsing="false" onAction="#Clear1" prefHeight="39.0" prefWidth="65.0" text="Clear" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Lucida Fax Regular" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
